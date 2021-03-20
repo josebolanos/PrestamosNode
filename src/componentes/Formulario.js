@@ -21,7 +21,9 @@ const  Formulario= ({cantidad,guardarCantidad,plazo,guardarPlazo}) => {
         guardarError(false);
 
      //Realizar cotizacion
-     calcularTotal(cantidad, plazo);
+     const total = calcularTotal(cantidad, plazo);
+
+     console.log(total);
     }
 
     return (  
